@@ -1,24 +1,34 @@
+<!--BUILD FOR MR DRABBLES YEAR 4 COMPUTER CALSS
+FULL COPYRIGHT BELONGS TO ROGER GORDAN!!!!!!
+DONT TRY JOT STEAL THSI WEBSITE BECAUSE I WILL FIND YOU!!!!!!!  -->
 <head>
 <title>garlic bread is wonderful</title>
 </head>
+
 <body>
-<h1></h1>
-<img src="static/logos/garlicbred3.png"></img>
-<img src="static/garlicbredpicture.jpg"></img>
-<h2></h2>
+<img id=title></img><p>
+<img src="static/garlicbredpicture.jpg"></img><p>
 <p>welcome to the garlic bread apprectiation world wide web site</p>
 <p> hope you enjoy it and dont forget to sing the log book when u go</p>
 <img src="static/undercon.gif"></img>
 <h6>this site best viwed in interntu explorer 4.0 800x600</h6>
+
+<script>
+images = [
+  "garlicbred2.png",
+  "garlicbred3.png",
+  "garlicbred4.gif",
+  "garlicbred5.png"
+]
+var i = Math.floor(Math.random() * images.length)
+document.getElementById("title").src = "static/logos/" + images[i]
+</script>
+
 <style>
 body {
   font-style: italic;
   text-align: center;
 }
-
-warning {
-  text-size: 8
-}
-
 </style>
+
 </body>
